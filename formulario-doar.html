@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Doação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"><a href="index.html">Doando ao <br>Futuro</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#escolas">Escolas Acolhidas</a></li>
+                <li><a href="#projeto">Projeto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        
+        <form>
+            <p class="titulo-formulario">Insira as informações solicitadas</p>
+                <p><label for="inome">Nome Instituição:</label><br><!--criando relação entre palavra -e o input´-->
+                    <input type="text" name="nome" id="inome">
+                </p>
+                <p><label for="icnpj">CNPJ:</label><br>
+                    <input type="number" name="cnpj" id="icnpj" min="14">
+                </p> 
+                <p><label for="iemail">E-mail:</label><br>
+                    <input type="email" name="email" id="iemail" autocomplete="email">
+                </p>
+                <p><label for="itelefone">Telefone:</label><br>
+                    <input type="tel" name="telefone" id="itelefone" autocomplete="tel-area-code">
+                </p>
+                <p><label for="iendereco">Endereço:</label><br>
+                    <input type="text" name="endereco" id="iendereco">
+                </p>
+                <p><label for="imsg">Equipamentos:</label><br>
+                    <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Descreva os equipamentos a serem doados"></textarea>
+                </p>
+
+            <input class="botao-enviar" type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>

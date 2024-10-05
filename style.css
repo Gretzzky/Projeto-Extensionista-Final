@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #288EA0;
+    padding: 5rem;
+    height: 110px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#logo {
+    font-size:36px;
+    text-align: center;
+}
+
+.imagem-principal {
+    width:940px;
+    height:250px;
+    object-fit: cover; /* Manter a proporção, preenchendo o contêiner */
+    text-align: center; 
+}
+
+.banner { 
+    padding: 20px;
+    text-align: center;
+}
+
+.citação-botao {
+    display: flex;
+    justify-content:space-around;
+    width: 940px;
+    height: 100px;
+    margin: auto;
+    margin-top:15px;
+    font-weight:700;
+    font-size: 20px;
+    color: #288EA0;
+}
+
+button {
+    background-color:#288EA0;
+    width:140px;
+    height: 40px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border:1px #288EA0 solid;
+    border-radius: 6px;
+}
+
+.imagem-menina_sorrindo {
+    width: 430px;
+    height: 265px;
+    margin: 7px;
+    border-radius:10px;
+}
+
+.bloco-principal {
+    background-color: #288EA0;
+    display:flex;
+    width: 940px;
+    height: 280px;
+    margin: auto;
+    margin-top:-20px;
+    border-radius:0px 10px 10px 0px;
+}
+
+.texto_bloco-principal {
+    margin: auto;
+    margin-left: 10px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+form {
+    margin-left: 170px;
+    font-size: 18px;
+}
+
+.titulo-formulario {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+    width: 60%;
+}
+
+textarea {
+    width: 60%;
+}
+
+.botao-enviar {
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+    border-color: #288EA0;
+}
